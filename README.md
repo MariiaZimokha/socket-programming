@@ -16,3 +16,11 @@ The client sends one line of data to the server, the server capitalizes the line
 
 Image above highlights the main socket-related activity of the client and server that communicate over the TCP transport service.
 
+
+### UDP
+
+Before the sending process can push a packet of data out the socket door, when using UDP, it must first attach a destination address to the packet. After the packet passes through the sender’s socket, the Internet will use this destination address to route the packet through the Internet to the socket in the receiving process.
+
+![UDP](/assets/UDP.png?raw=true)
+
+Image above highlights the main socket-related activity of the client and server that communicate over the UDP transport service.
